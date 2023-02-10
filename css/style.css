@@ -221,6 +221,10 @@ body {
   margin-bottom: 80px;
 }
 
+.index-services-item {
+  display: flex;
+}
+
 .index-services {
   display: flex;
   align-items: center;
