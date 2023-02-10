@@ -191,6 +191,22 @@ body {
   align-self: flex-end;
 }
 
+/* INSEX-SERVICES */
+
+.index-services {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.index-services-heading {
+  margin-top: 0;
+  font-size: 36px;
+  line-height: 1.2;
+  font-family: "Open Sans", "Arial" sans-serif;
+  text-align: center;
+}
+
+
 /* SITE-FOOTER */
 
 .site-footer {
