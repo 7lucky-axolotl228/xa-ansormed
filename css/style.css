@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 *:focus {
   outline: 2px dotted #de2e54;
   outline-offset: 2px;
@@ -276,14 +280,8 @@ body {
   padding-top: 64px;
   padding-bottom: 64px;
   background-color: #0EB4C1;
-}
-
-/* .cta-container {
-  padding-top: 64px;
-  padding-bottom: 64px;
-  background-color: #0EB4C1;
   color: #fff;
-} */
+}
 
 .cta-heading {
   margin-top: 0;
