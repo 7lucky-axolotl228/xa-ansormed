@@ -295,6 +295,7 @@ body {
 
 .cta-links {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -401,6 +402,11 @@ body {
     width: 120px;
     height: 120px;
   }
+
+  .cta-heading {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
 }
 
   @media only screen and (max-width: 600px) {
@@ -437,6 +443,22 @@ body {
   }
 }
 
+@media only screen and (max-width: 570px) {
+  .cta {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .cta-links {
+    flex-direction: column;
+  }
+
+  .cta-link-item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   .hero-content {
     padding-top: 20px;
@@ -461,5 +483,14 @@ body {
 
   .index-services-description {
     font-size: 14px;
+  }
+
+  .cta {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .cta-heading {
+    font-size: 24px;
   }
 }
