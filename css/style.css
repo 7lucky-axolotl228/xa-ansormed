@@ -186,8 +186,8 @@ body {
 
 }
 
-.site-header-toggle-btn:hover {
-  opacity: 0.7;
+.site-header-toggle-btn:active {
+  opacity: 0.6;
 }
 
 
